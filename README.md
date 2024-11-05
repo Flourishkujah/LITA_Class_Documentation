@@ -196,19 +196,23 @@ SELECT COUNT(Staffid) AS NumberOfEmployee FROM Salary
 ```
 
 1. **SUM**: Calculates the total sum of a numeric column.
+
 ![image](https://github.com/user-attachments/assets/cb70ebf9-f9b7-4d09-9ac6-33b24ea4e085)
 
 2. **COUNT**: Returns the number of rows that match a specified condition or the total number of rows in a table.
+
 ![image](https://github.com/user-attachments/assets/1a736307-7349-40a0-ba79-d9c2cde6ac5c)
 
 3. **MAX**: Retrieves the maximum value from a specified column.
+
 ![image](https://github.com/user-attachments/assets/7bed6317-047e-41f1-96d2-fdbc39435a1b)
 
 4. **MIN**: Retrieves the minimum value from a specified column.
 
 ![image](https://github.com/user-attachments/assets/61a0ce16-e2ce-4990-835b-5a8f27365983)
 
-6. **AVG (Average)**: Calculates the average value of a numeric column.
+5. **AVG (Average)**: Calculates the average value of a numeric column.
+
 ![image](https://github.com/user-attachments/assets/1fb5e7f0-e380-458c-9e2b-12c57651d757)
 
 
