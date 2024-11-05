@@ -181,6 +181,7 @@ select * from PERSON
 
 ![image](https://github.com/user-attachments/assets/8e9455bc-0d44-4578-bbdc-36f0daecf209)
 
+
 ## Aggregate Functions in SQL
 Aggregate functions perform calculations on a set of values and return a single value. They are commonly used in conjunction with the GROUP BY clause to summarize data. Here are descriptions of the specific functions mentioned:
 
@@ -214,6 +215,25 @@ SELECT COUNT(Staffid) AS NumberOfEmployee FROM Salary
 5. **AVG (Average)**: Calculates the average value of a numeric column.
 
 ![image](https://github.com/user-attachments/assets/1fb5e7f0-e380-458c-9e2b-12c57651d757)
+
+6. **UPDATE**: The UPDATE command is used to modify existing records in a table. The SET clause specifies the column to be updated and the new value, while the WHERE clause ensures that only the specific record matching the condition is affected. Without the WHERE clause, all rows in the table would be updated, which can be risky.
+
+```
+UPDATE Salary
+SET salary = 7056999.9994
+WHERE Staffid = 'AB401';
+```
+
+7. **ALTER**: The ALTER command is used to modify the structure of an existing table in a database. It allows for changes such as adding new columns, deleting existing columns, or modifying the data type of columns. The ALTER command is powerful and helps manage database tables without affecting the existing data in those tables.
+
+```
+ALTER TABLE EMPLOYEE
+ADD State_of_Origin varchar (50)
+select * from employee
+UPDATE EMPLOYEE
+SET State_of_Origin = 'Ekiti'
+where staffid = 'AB268'
+```
 
 
 
