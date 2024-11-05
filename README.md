@@ -1,7 +1,7 @@
 # LITA_Class_Documentation
 This is where I documented my first project while learning data analysis on Incubator Hub
 
-# EXCEL
+# DATA ANALYSIS WITH EXCEL
 
 ## EXCEL FUNCTIONS 
 
@@ -89,7 +89,7 @@ Line of Business Breakdown: Service Plans really lead in revenue, with Copier an
 ![image](https://github.com/user-attachments/assets/0cc4692d-2f81-4ed6-bba8-2fc12556f373)
 
 
-# SQL
+# DATA ANALYSIS WITH SQL
 
 ## Building Foundations with SQL Tables and Queries
 
