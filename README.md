@@ -99,9 +99,43 @@ The "staffid" serves as the primary key, ensuring each employee record is unique
 
 I used SELECT statements to retrieve specific columns like staff IDs and first names. These queries show how to access and organize data with precision. This hands-on experience with tables and primary keys is a reminder of how SQL is essential for real-world data management and analysis.
 
+TO CREATE A TABLE 
+
+```
+CREATE TABLE Employee (
+staffid varchar (10) not null,
+FirstName varchar (255) NOT NULL,
+SecondName varchar (255),
+Gender varchar (10),
+Date_of_Birth date,
+HireDate datetime,
+primary key (staffid)
+)
+```
+
+![image](https://github.com/user-attachments/assets/c203a2c4-070e-426b-8e20-89281533a70c)
+
+
+TO INSERT INTO THE TABLE 
+```
+select staffid, firstname from Employee
+
+insert into Employee (staffid, firstname, secondname, gender,Date_of_Birth,
+hiredate)
+values ( 'AB401', 'ayan', 'olakun', 'female', '1992-08-22', '2018-02-09'),
+( 'AB212', 'okorie', 'mercy', 'female','1988-10-09', '2018-10-09'),
+( 'AB223', 'joshua', 'chukwuemeka', 'male','1980-10-09', '2022-02-09'),
+( 'AB234', 'sanni', 'ibrahim', 'male','1958-10-09', '2019-09-23'),
+( 'AB254', 'mercy', 'olanipekun', 'female','1982-10-09', '2020-02-09'),
+( 'AB249', 'johnson', 'mercy', 'female','1982-10-09', '2019-12-09'),
+( 'AB298', 'ayomide', 'halleluyah', 'female', '1982-10-09','2018-07-11'),
+( 'AB260', 'deborah', 'justin', 'female','1982-10-09', '2018-02-09'),
+( 'AB281', 'wale', 'olanipekun', 'male','1982-10-09', '2018-02-09')
+```
+
 ![image](https://github.com/user-attachments/assets/df7a4165-5164-4052-bef1-ba4eacca8816)
 ![image](https://github.com/user-attachments/assets/16bf9dea-9ae3-48bb-ae44-1e8c5bfb9794)
-![image](https://github.com/user-attachments/assets/c203a2c4-070e-426b-8e20-89281533a70c)
+
 
 
 
