@@ -93,6 +93,7 @@ Line of Business Breakdown: Service Plans really lead in revenue, with Copier an
 
 ![image](https://github.com/user-attachments/assets/875b3415-1ead-4955-8abb-33cf3ea8f272)
 ![image](https://github.com/user-attachments/assets/0cc4692d-2f81-4ed6-bba8-2fc12556f373)
+![image](https://github.com/user-attachments/assets/15b791c7-16aa-41ea-b1e1-67703d245682)
 
 
 ## DATA ANALYSIS WITH SQL
