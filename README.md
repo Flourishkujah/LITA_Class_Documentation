@@ -1,7 +1,7 @@
 # LITA_Class_Documentation
 This is where I documented my first project while learning data analysis on Incubator Hub
 
-# DATA ANALYSIS WITH EXCEL
+### DATA ANALYSIS WITH EXCEL
 
 ## EXCEL FUNCTIONS 
 
@@ -12,7 +12,7 @@ I focused on Excel and worked with a dataset to calculate some key stats. I look
 ![image](https://github.com/user-attachments/assets/f057e48c-1266-43c2-bc09-af2c9ad01618)
 
 
-## WORKING WITH VLOOKUP
+### WORKING WITH VLOOKUP
 
 I explored Excel's VLOOKUP function while working on a salary structure analysis dataset. I used it to retrieve various salary components, such as basic, housing, transport, and leave allowances, all based on the employees' grade levels. This function helped ensure a quick and accurate breakdown of salaries across employees.
 
@@ -25,7 +25,7 @@ My focus was on using VLOOKUP to easily connect employee data with the salary st
 ![image](https://github.com/user-attachments/assets/1dcf6a3a-0b66-45cc-98be-f42d04e63281)
 
 
-## Text Extraction Using Excel
+### Text Extraction Using Excel
 
 I worked with some raw data using text extraction techniques in Excel. By utilizing functions like LEFT(), MID(), and RIGHT(), I was able to break down codes into department codes, purchase dates, and asset category codes. Text extraction is key in transforming raw data into meaningful, structured information for efficient analysis.
 
@@ -34,7 +34,7 @@ I worked with some raw data using text extraction techniques in Excel. By utiliz
 ![image](https://github.com/user-attachments/assets/a768c62a-e783-4c48-8518-6d463b4015b6)
 
 
-## Data cleaning with Excel
+### Data cleaning with Excel
 
 I focused on data cleaning, and it truly makes a big difference when working with properly cleaned data. I combined first and last names to create full names, then used the first names to generate emails using Excel’s “ & “ function. These small steps make data more readable and manageable.
 
@@ -46,7 +46,7 @@ Data cleaning is one of the most important steps in data analysis. Just like an 
 ![image](https://github.com/user-attachments/assets/59af3c3d-f6f7-4baf-93b1-2aa92bc4fa6e)
 
 
-## Mastering Text Cleaning with Excel
+### Mastering Text Cleaning with Excel
 
 The focus was on text cleaning and formatting in Excel. I worked through issues like inconsistent formatting, extra spaces, and pulling key details from strings. Using a mix of Excel functions, I turned messy raw data into something much cleaner and easier to work with, without losing any important details.
 I used PROPER, UPPER, and LOWER functions to make sure names had consistent capitalization. The TRIM function came in handy to get rid of those annoying extra spaces, making everything more readable. I also used LEFT to pull specific info like first names or surnames, which made the data easier to manage.
@@ -58,7 +58,7 @@ Having clean data makes everything so much smoother and even more accurate.
 ![image](https://github.com/user-attachments/assets/d498149a-1fc0-4c59-82d7-519dfa1d7999)
 
 
-## Unlocking Insights with Pivot Tables
+### Unlocking Insights with Pivot Tables
 
 I spent time using pivot tables in Excel to explore sales across different regions and stores. Pivot tables make it easy to arrange and summarize large amounts of data, so I could quickly see which areas were doing well:
 
@@ -71,7 +71,7 @@ This tool helps me break down data and find patterns that might be missed. It’
 ![image](https://github.com/user-attachments/assets/fb285a50-39c6-477d-bb49-6c7adb708af2)
 ![image](https://github.com/user-attachments/assets/374aaa9d-4650-4f02-8434-673c37d39be0)
 
-## Unlocking Insights with Pivot Tables
+### Unlocking Insights with Pivot Tables
 
 I worked with pivot tables in Excel to analyze the sales and revenue data, and the insights were eye-opening!
 
@@ -89,9 +89,9 @@ Line of Business Breakdown: Service Plans really lead in revenue, with Copier an
 ![image](https://github.com/user-attachments/assets/0cc4692d-2f81-4ed6-bba8-2fc12556f373)
 
 
-# DATA ANALYSIS WITH SQL
+## DATA ANALYSIS WITH SQL
 
-## Building Foundations with SQL Tables and Queries
+### Building Foundations with SQL Tables and Queries
 
 Today, I worked on creating and managing tables in SQL Server. I created an Employee table with details like names, gender, birth dates, and hire dates, and practiced inserting records. Each query I run teaches me something new!
 
