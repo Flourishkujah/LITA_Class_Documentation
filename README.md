@@ -136,6 +136,83 @@ values ( 'AB401', 'ayan', 'olakun', 'female', '1992-08-22', '2018-02-09'),
 ![image](https://github.com/user-attachments/assets/df7a4165-5164-4052-bef1-ba4eacca8816)
 ![image](https://github.com/user-attachments/assets/16bf9dea-9ae3-48bb-ae44-1e8c5bfb9794)
 
+### DROP, DELETE AND TRUNCATE COMMAND IN SQL
+
+### 1. Drop Table Command
+This command is used to completely remove a table from the database, including all of its data and structure. Once a table is dropped, all data and any dependent database objects, like constraints, indexes, and triggers, are permanently deleted, and the action cannot be undone.
+```
+DROP TABLE employee
+```
+
+### 2. Delete Command
+The DELETE command is used to remove specific rows from a table based on a condition. In this case, it deletes the row(s) from the employee table where the staffid equals 'ab281'. The table structure and other data remain unchanged. If no condition is specified, all rows in the table will be deleted, but the table itself will remain.
+
+```
+DELETE FROM employee WHERE staffid = 'ab281'
+```
+
+### 3. Truncate Command
+The TRUNCATE command removes all rows from a table, quickly and efficiently. Unlike DELETE, TRUNCATE does not generate individual row delete operations and does not allow for conditional deletion. The table structure remains in the database for future use. This command cannot be rolled back in some database systems, as it is often considered a more permanent data removal method than DELETE.
+
+```
+TRUNCATE TABLE employee
+```
+
+### Identity in SQL
+The IDENTITY property in SQL is used to generate unique numbers automatically for a column, typically used for primary keys. The IDENTITY property specifies that the column will have an auto-incrementing value starting from a given seed and incremented by a specified step.
+
+```
+CREATE TABLE PERSON (
+personid int identity (1,1) primary key not null,
+personname varchar (255) not null,
+age int
+)
+insert into PERSON (personname, age)
+values ('saidu', 45),
+('adebanjo', 49),
+('olorunda', 33),
+('martha', 88),
+('sandi', 100),
+('jackson', 22),
+('okunola', 19),
+('esther', 45)
+select * from PERSON
+```
+
+![image](https://github.com/user-attachments/assets/8e9455bc-0d44-4578-bbdc-36f0daecf209)
+
+## Aggregate Functions in SQL
+Aggregate functions perform calculations on a set of values and return a single value. They are commonly used in conjunction with the GROUP BY clause to summarize data. Here are descriptions of the specific functions mentioned:
+
+## Functions
+
+```
+SELECT SUM(Salary) AS TOTALSALARY FROM Salary
+SELECT AVG(Salary) AS AVERAGESALARY FROM Salary
+SELECT MAX(Salary) AS MAX FROM Salary
+SELECT MIN(Salary) AS MIN FROM Salary
+SELECT COUNT(Staffid) AS EmployeeCount FROM EMPLOYEE
+SELECT COUNT(Staffid) AS NumberOfEmployee FROM Salary
+```
+
+1. **SUM**: Calculates the total sum of a numeric column.
+![image](https://github.com/user-attachments/assets/cb70ebf9-f9b7-4d09-9ac6-33b24ea4e085)
+
+2. **COUNT**: Returns the number of rows that match a specified condition or the total number of rows in a table.
+![image](https://github.com/user-attachments/assets/1a736307-7349-40a0-ba79-d9c2cde6ac5c)
+
+3. **MAX**: Retrieves the maximum value from a specified column.
+![image](https://github.com/user-attachments/assets/7bed6317-047e-41f1-96d2-fdbc39435a1b)
+
+4. **MIN**: Retrieves the minimum value from a specified column.
+
+![image](https://github.com/user-attachments/assets/61a0ce16-e2ce-4990-835b-5a8f27365983)
+
+6. **AVG (Average)**: Calculates the average value of a numeric column.
+![image](https://github.com/user-attachments/assets/1fb5e7f0-e380-458c-9e2b-12c57651d757)
+
+
+
 
 
 
